@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "Amélioration d'oxydation",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "Oxyde les blocs de cuivre d'un cran supplémentaire lorsqu'ils sont rangés dans le sac",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "Amélioration d'oxydation avancée",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "Oxyde les blocs de cuivre jusqu'au stade oxydé lorsqu'ils sont rangés dans le sac",
+  "item.sophisticated_redox.reduction_upgrade": "Amélioration de réduction",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "Retire un stade d'oxydation aux blocs de cuivre lorsqu'ils sont rangés dans le sac",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "Amélioration de réduction avancée",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "Ramène les blocs de cuivre au stade non oxydé lorsqu'ils sont rangés dans le sac",
+  "item.sophisticated_redox.waxing_upgrade": "Amélioration de cirage",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "Cire les blocs de cuivre dans le sac et fixe leur stade actuel. S'exécute toujours après les améliorations d'oxydation et de réduction",
+  "gui.sophisticated_redox.button.level.1": "Niveau Ⅰ - une étape de conversion",
+  "gui.sophisticated_redox.button.level.2": "Niveau Ⅱ - deux étapes de conversion",
+  "gui.sophisticated_redox.button.level.3": "Niveau Ⅲ - trois étapes de conversion",
+  "gui.sophisticated_redox.button.level.4": "Niveau Ⅳ - quatre étapes de conversion",
+  "gui.sophisticated_redox.button.dewax.on": "Décirage autorisé - le décirage compte comme une étape, les étapes restantes réduisent",
+  "gui.sophisticated_redox.button.dewax.off": "Décirage bloqué - les blocs cirés sont ignorés",
+  "gui.sophisticated_redox.button.shape_match.on": "Correspondance par forme activée - le filtre concerne tous les stades d'oxydation et variantes cirées de la même forme",
+  "gui.sophisticated_redox.button.shape_match.off": "Correspondance par forme désactivée - le filtre ne concerne que les objets identiques"
+}

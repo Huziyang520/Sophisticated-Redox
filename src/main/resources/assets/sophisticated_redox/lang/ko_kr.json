@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "산화 업그레이드",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "배낭에 넣으면 구리 블록이 한 단계 산화됩니다",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "고급 산화 업그레이드",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "배낭에 넣으면 구리 블록이 최대 단계까지 산화됩니다",
+  "item.sophisticated_redox.reduction_upgrade": "환원 업그레이드",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "배낭에 넣으면 구리 블록의 산화가 한 단계 되돌아갑니다",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "고급 환원 업그레이드",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "배낭에 넣으면 구리 블록이 산화되지 않은 상태로 돌아갑니다",
+  "item.sophisticated_redox.waxing_upgrade": "밀랍 업그레이드",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "배낭에 넣으면 구리 블록에 밀랍을 발라 현재 산화 단계로 고정합니다. 항상 산화 및 환원 업그레이드 뒤에 실행됩니다",
+  "gui.sophisticated_redox.button.level.1": "단계 Ⅰ: 변환 1회",
+  "gui.sophisticated_redox.button.level.2": "단계 Ⅱ: 변환 2회",
+  "gui.sophisticated_redox.button.level.3": "단계 Ⅲ: 변환 3회",
+  "gui.sophisticated_redox.button.level.4": "단계 Ⅳ: 변환 4회",
+  "gui.sophisticated_redox.button.dewax.on": "왁스 제거 허용: 왁스 제거 자체가 1단계로 계산되며 나머지 단계는 환원합니다",
+  "gui.sophisticated_redox.button.dewax.off": "왁스 제거 금지: 왁스칠된 블록은 건너뜁니다",
+  "gui.sophisticated_redox.button.shape_match.on": "모양 일치: 같은 모양의 모든 산화 단계와 왁스 변형을 대상으로 합니다",
+  "gui.sophisticated_redox.button.shape_match.off": "정확한 일치: 동일한 아이템만 대상으로 합니다"
+}

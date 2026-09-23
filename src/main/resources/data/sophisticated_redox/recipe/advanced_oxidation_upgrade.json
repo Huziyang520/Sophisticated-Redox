@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": "minecraft:oxidized_copper",
+    "B": "sophisticated_redox:oxidation_upgrade"
+  },
+  "pattern": [
+    " O ",
+    "OBO",
+    " O "
+  ],
+  "result": { "id": "sophisticated_redox:advanced_oxidation_upgrade" }
+}

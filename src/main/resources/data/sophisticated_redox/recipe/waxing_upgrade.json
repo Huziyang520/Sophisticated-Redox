@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "H": "minecraft:honeycomb",
+    "B": "sophisticatedbackpacks:upgrade_base"
+  },
+  "pattern": [
+    " H ",
+    "HBH",
+    " H "
+  ],
+  "result": { "id": "sophisticated_redox:waxing_upgrade" }
+}

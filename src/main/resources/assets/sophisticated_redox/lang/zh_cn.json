@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "精妙背包：氧化还原",
+  "item.sophisticated_redox.oxidation_upgrade": "氧化升级",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "方块存入背包时，铜质方块氧化一级",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "高级氧化升级",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "方块存入背包时，铜质方块直接氧化至最大程度",
+  "item.sophisticated_redox.reduction_upgrade": "还原升级",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "方块存入背包时，铜质方块除锈一次",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "高级还原升级",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "方块存入背包时，铜质方块一次性还原至干净状态",
+  "item.sophisticated_redox.waxing_upgrade": "涂蜡升级",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "方块存入背包时为其涂蜡，锁住当前氧化档位。恒定在氧化与还原升级之后执行",
+  "gui.sophisticated_redox.button.level.1": "档位 Ⅰ：转换一次",
+  "gui.sophisticated_redox.button.level.2": "档位 Ⅱ：转换两次",
+  "gui.sophisticated_redox.button.level.3": "档位 Ⅲ：转换三次",
+  "gui.sophisticated_redox.button.level.4": "档位 Ⅳ：转换四次",
+  "gui.sophisticated_redox.button.dewax.on": "允许脱蜡：脱蜡本身算一步，其余步骤才除锈",
+  "gui.sophisticated_redox.button.dewax.off": "不允许脱蜡：跳过已涂蜡的方块",
+  "gui.sophisticated_redox.button.shape_match.on": "匹配方块形状：过滤器命中同一形状的所有氧化档位与涂蜡变体",
+  "gui.sophisticated_redox.button.shape_match.off": "精确匹配：过滤器只命中相同的物品"
+}

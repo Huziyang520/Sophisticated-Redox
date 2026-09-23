@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "精妙行囊・氧化還原",
+  "item.sophisticated_redox.oxidation_upgrade": "氧化之升",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "物入囊中，銅器加其鏽一階",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "氧化之極升",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "物入囊中，銅器俄而盡鏽",
+  "item.sophisticated_redox.reduction_upgrade": "還原之升",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "物入囊中，銅器去其鏽一階",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "還原之極升",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "物入囊中，銅器俄而復其本色",
+  "item.sophisticated_redox.waxing_upgrade": "傅蠟之升",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "物入囊中，以蠟傅銅，封其今階。必在氧化還原諸升之後而行",
+  "gui.sophisticated_redox.button.level.1": "其第一：一化",
+  "gui.sophisticated_redox.button.level.2": "其第二：二化",
+  "gui.sophisticated_redox.button.level.3": "其第三：三化",
+  "gui.sophisticated_redox.button.level.4": "其第四：凡四化",
+  "gui.sophisticated_redox.button.dewax.on": "許脫蠟：去蠟計一步，餘步乃除鏽",
+  "gui.sophisticated_redox.button.dewax.off": "不許脫蠟：蠟者不犯",
+  "gui.sophisticated_redox.button.shape_match.on": "同形相配：凡同形之銅，雖鏽蝕塗蠟，皆為所中",
+  "gui.sophisticated_redox.button.shape_match.off": "正配：惟同物乃中"
+}

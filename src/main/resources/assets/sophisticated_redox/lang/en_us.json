@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "Oxidation Upgrade",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "Oxidizes copper blocks one stage further when stored in the backpack",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "Advanced Oxidation Upgrade",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "Oxidizes copper blocks all the way to the oxidized stage when stored in the backpack",
+  "item.sophisticated_redox.reduction_upgrade": "Reduction Upgrade",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "Scrapes one oxidation stage off copper blocks when stored in the backpack",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "Advanced Reduction Upgrade",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "Scrapes copper blocks back to the unaffected stage when stored in the backpack",
+  "item.sophisticated_redox.waxing_upgrade": "Waxing Upgrade",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "Waxes copper blocks when stored in the backpack, locking them at their current stage. Always runs after the oxidation and reduction upgrades",
+  "gui.sophisticated_redox.button.level.1": "Level Ⅰ - one conversion step",
+  "gui.sophisticated_redox.button.level.2": "Level Ⅱ - two conversion steps",
+  "gui.sophisticated_redox.button.level.3": "Level Ⅲ - three conversion steps",
+  "gui.sophisticated_redox.button.level.4": "Level Ⅳ - four conversion steps",
+  "gui.sophisticated_redox.button.dewax.on": "Dewaxing allowed - dewaxing counts as one step, the remaining steps reduce",
+  "gui.sophisticated_redox.button.dewax.off": "Dewaxing blocked - waxed blocks are left alone",
+  "gui.sophisticated_redox.button.shape_match.on": "Shape match on - the filter matches every oxidation stage and waxed variant of the same shape",
+  "gui.sophisticated_redox.button.shape_match.off": "Shape match off - the filter matches exact items"
+}

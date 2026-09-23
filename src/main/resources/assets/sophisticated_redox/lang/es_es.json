@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "Mejora de oxidación",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "Oxida los bloques de cobre un nivel más al guardarlos en la mochila",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "Mejora de oxidación avanzada",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "Oxida los bloques de cobre hasta el nivel máximo al guardarlos en la mochila",
+  "item.sophisticated_redox.reduction_upgrade": "Mejora de reducción",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "Elimina un nivel de oxidación de los bloques de cobre al guardarlos en la mochila",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "Mejora de reducción avanzada",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "Devuelve los bloques de cobre al estado sin oxidar al guardarlos en la mochila",
+  "item.sophisticated_redox.waxing_upgrade": "Mejora de encerado",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "Encera los bloques de cobre al guardarlos en la mochila y fija su nivel actual. Siempre se ejecuta después de las mejoras de oxidación y reducción",
+  "gui.sophisticated_redox.button.level.1": "Nivel Ⅰ - un paso de conversión",
+  "gui.sophisticated_redox.button.level.2": "Nivel Ⅱ - dos pasos de conversión",
+  "gui.sophisticated_redox.button.level.3": "Nivel Ⅲ - tres pasos de conversión",
+  "gui.sophisticated_redox.button.level.4": "Nivel Ⅳ - cuatro pasos de conversión",
+  "gui.sophisticated_redox.button.dewax.on": "Desencerado permitido - el desencerado cuenta como un paso; los demás pasos reducen",
+  "gui.sophisticated_redox.button.dewax.off": "Desencerado bloqueado - los bloques encerados se omiten",
+  "gui.sophisticated_redox.button.shape_match.on": "Coincidencia por forma activada - el filtro abarca todos los estados de oxidación y variantes enceradas de la misma forma",
+  "gui.sophisticated_redox.button.shape_match.off": "Coincidencia por forma desactivada - el filtro solo abarca objetos idénticos"
+}

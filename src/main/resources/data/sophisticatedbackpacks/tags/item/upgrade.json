@@ -1,0 +1,9 @@
+{
+  "values": [
+    "sophisticated_redox:oxidation_upgrade",
+    "sophisticated_redox:advanced_oxidation_upgrade",
+    "sophisticated_redox:reduction_upgrade",
+    "sophisticated_redox:advanced_reduction_upgrade",
+    "sophisticated_redox:waxing_upgrade"
+  ]
+}

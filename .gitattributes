@@ -1,0 +1,11 @@
+# 统一换行：仓库内按 LF 存，检出时由 Git 按平台处理
+* text=auto
+
+# gradlew 是 shell 脚本，必须保持 LF，否则 Linux / CI 上无法执行
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+# 二进制资源，绝不做换行转换
+*.png binary
+*.jar binary
+*.zip binary

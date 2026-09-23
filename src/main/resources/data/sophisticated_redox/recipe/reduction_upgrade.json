@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#minecraft:axes",
+    "C": "minecraft:copper_ingot",
+    "B": "sophisticatedbackpacks:upgrade_base"
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    " C "
+  ],
+  "result": { "id": "sophisticated_redox:reduction_upgrade" }
+}

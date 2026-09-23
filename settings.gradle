@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        // 国内镜像放在官方源之前（《AI模组开发通用/02》§2.3.3 铁律三）
+        maven { name = 'AliyunPublic'; url = 'https://maven.aliyun.com/repository/public' }
+        maven { name = 'AliyunGradlePlugin'; url = 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { name = 'TencentPublic'; url = 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        // 官方源：ModDevGradle 的插件标记在 Gradle Plugin Portal 上
+        gradlePluginPortal()
+        maven { name = 'NeoForged'; url = 'https://maven.neoforged.net/releases' }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+rootProject.name = 'sophisticated_redox'

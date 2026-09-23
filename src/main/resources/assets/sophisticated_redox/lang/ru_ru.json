@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "Улучшение окисления",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "Окисляет медные блоки на одну стадию при помещении в рюкзак",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "Продвинутое улучшение окисления",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "Окисляет медные блоки до максимальной стадии при помещении в рюкзак",
+  "item.sophisticated_redox.reduction_upgrade": "Улучшение восстановления",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "Снимает одну стадию окисления с медных блоков при помещении в рюкзак",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "Продвинутое улучшение восстановления",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "Возвращает медные блоки в неокисленное состояние при помещении в рюкзак",
+  "item.sophisticated_redox.waxing_upgrade": "Улучшение вощения",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "Вощит медные блоки при помещении в рюкзак и фиксирует текущую стадию. Всегда срабатывает после улучшений окисления и восстановления",
+  "gui.sophisticated_redox.button.level.1": "Уровень Ⅰ — одно преобразование",
+  "gui.sophisticated_redox.button.level.2": "Уровень Ⅱ — два преобразования",
+  "gui.sophisticated_redox.button.level.3": "Уровень Ⅲ — три преобразования",
+  "gui.sophisticated_redox.button.level.4": "Уровень Ⅳ — четыре преобразования",
+  "gui.sophisticated_redox.button.dewax.on": "Снятие воска разрешено — снятие воска считается отдельным шагом, остальные шаги восстанавливают",
+  "gui.sophisticated_redox.button.dewax.off": "Снятие воска запрещено — залитые воском блоки пропускаются",
+  "gui.sophisticated_redox.button.shape_match.on": "Совпадение по форме — фильтр находит все стадии окисления и восковые варианты той же формы",
+  "gui.sophisticated_redox.button.shape_match.off": "Точное совпадение — фильтр находит только те же предметы"
+}

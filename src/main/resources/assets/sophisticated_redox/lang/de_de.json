@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "Oxidations-Upgrade",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "Oxidiert Kupferblöcke im Rucksack um eine Stufe weiter",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "Fortgeschrittenes Oxidations-Upgrade",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "Oxidiert Kupferblöcke im Rucksack bis zur höchsten Stufe",
+  "item.sophisticated_redox.reduction_upgrade": "Reduktions-Upgrade",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "Entfernt im Rucksack eine Oxidationsstufe von Kupferblöcken",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "Fortgeschrittenes Reduktions-Upgrade",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "Setzt Kupferblöcke im Rucksack bis zur unveränderten Stufe zurück",
+  "item.sophisticated_redox.waxing_upgrade": "Wachs-Upgrade",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "Wachst Kupferblöcke im Rucksack und fixiert ihre aktuelle Stufe. Läuft immer nach den Oxidations- und Reduktions-Upgrades",
+  "gui.sophisticated_redox.button.level.1": "Stufe Ⅰ - ein Umwandlungsschritt",
+  "gui.sophisticated_redox.button.level.2": "Stufe Ⅱ - zwei Umwandlungsschritte",
+  "gui.sophisticated_redox.button.level.3": "Stufe Ⅲ - drei Umwandlungsschritte",
+  "gui.sophisticated_redox.button.level.4": "Stufe Ⅳ - vier Umwandlungsschritte",
+  "gui.sophisticated_redox.button.dewax.on": "Entwachsen erlaubt - Entwachsen zählt als eigener Schritt, die übrigen Schritte reduzieren",
+  "gui.sophisticated_redox.button.dewax.off": "Entwachsen gesperrt - gewachste Blöcke werden übersprungen",
+  "gui.sophisticated_redox.button.shape_match.on": "Formabgleich an - der Filter trifft jede Oxidationsstufe und Wachsvariante derselben Form",
+  "gui.sophisticated_redox.button.shape_match.off": "Formabgleich aus - der Filter trifft exakte Gegenstände"
+}

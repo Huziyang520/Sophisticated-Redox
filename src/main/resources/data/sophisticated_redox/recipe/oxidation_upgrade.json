@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "B": "sophisticatedbackpacks:upgrade_base"
+  },
+  "pattern": [
+    " C ",
+    "CBC",
+    " C "
+  ],
+  "result": { "id": "sophisticated_redox:oxidation_upgrade" }
+}

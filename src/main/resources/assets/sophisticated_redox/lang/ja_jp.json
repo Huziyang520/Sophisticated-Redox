@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "酸化アップグレード",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "バックパックに収納すると、銅ブロックが一段階酸化する",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "上位酸化アップグレード",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "バックパックに収納すると、銅ブロックが最大まで酸化する",
+  "item.sophisticated_redox.reduction_upgrade": "還元アップグレード",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "バックパックに収納すると、銅ブロックの酸化が一段階戻る",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "上位還元アップグレード",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "バックパックに収納すると、銅ブロックが酸化していない状態まで戻る",
+  "item.sophisticated_redox.waxing_upgrade": "蝋引きアップグレード",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "バックパックに収納すると、銅ブロックに蝋を塗り現在の酸化段階で固定する。酸化・還元アップグレードの後に必ず実行される",
+  "gui.sophisticated_redox.button.level.1": "段階 Ⅰ：変換1回",
+  "gui.sophisticated_redox.button.level.2": "段階 Ⅱ：変換2回",
+  "gui.sophisticated_redox.button.level.3": "段階 Ⅲ：変換3回",
+  "gui.sophisticated_redox.button.level.4": "段階 Ⅳ：変換4回",
+  "gui.sophisticated_redox.button.dewax.on": "脱蠟あり：脱蠟自体が1ステップとして数えられ、残りのステップで還元します",
+  "gui.sophisticated_redox.button.dewax.off": "脱蠟なし：ワックスがけされたブロックは対象外",
+  "gui.sophisticated_redox.button.shape_match.on": "形状一致：同じ形状の酸化段階とワックス変種をすべて対象にする",
+  "gui.sophisticated_redox.button.shape_match.off": "完全一致：同じアイテムのみ対象"
+}

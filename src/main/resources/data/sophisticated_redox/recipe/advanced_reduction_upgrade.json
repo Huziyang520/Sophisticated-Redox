@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "minecraft:copper_block",
+    "B": "sophisticated_redox:reduction_upgrade"
+  },
+  "pattern": [
+    " C ",
+    "CBC",
+    " C "
+  ],
+  "result": { "id": "sophisticated_redox:advanced_reduction_upgrade" }
+}

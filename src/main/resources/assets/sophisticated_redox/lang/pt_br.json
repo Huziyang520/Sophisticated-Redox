@@ -1,0 +1,21 @@
+{
+  "itemGroup.sophisticated_redox": "Sophisticated Redox",
+  "item.sophisticated_redox.oxidation_upgrade": "Melhoria de oxidação",
+  "item.sophisticated_redox.oxidation_upgrade.tooltip": "Oxida os blocos de cobre em um estágio ao serem guardados na mochila",
+  "item.sophisticated_redox.advanced_oxidation_upgrade": "Melhoria de oxidação avançada",
+  "item.sophisticated_redox.advanced_oxidation_upgrade.tooltip": "Oxida os blocos de cobre até o estágio máximo ao serem guardados na mochila",
+  "item.sophisticated_redox.reduction_upgrade": "Melhoria de redução",
+  "item.sophisticated_redox.reduction_upgrade.tooltip": "Remove um estágio de oxidação dos blocos de cobre ao serem guardados na mochila",
+  "item.sophisticated_redox.advanced_reduction_upgrade": "Melhoria de redução avançada",
+  "item.sophisticated_redox.advanced_reduction_upgrade.tooltip": "Devolve os blocos de cobre ao estado sem oxidação ao serem guardados na mochila",
+  "item.sophisticated_redox.waxing_upgrade": "Melhoria de enceramento",
+  "item.sophisticated_redox.waxing_upgrade.tooltip": "Encera os blocos de cobre ao serem guardados na mochila e fixa o estágio atual. Sempre executa depois das melhorias de oxidação e redução",
+  "gui.sophisticated_redox.button.level.1": "Nível Ⅰ - um passo de conversão",
+  "gui.sophisticated_redox.button.level.2": "Nível Ⅱ - dois passos de conversão",
+  "gui.sophisticated_redox.button.level.3": "Nível Ⅲ - três passos de conversão",
+  "gui.sophisticated_redox.button.level.4": "Nível Ⅳ - quatro passos de conversão",
+  "gui.sophisticated_redox.button.dewax.on": "Desenceração permitida - desencerar conta como um passo; os demais passos reduzem",
+  "gui.sophisticated_redox.button.dewax.off": "Desenceração bloqueada - blocos encerados são ignorados",
+  "gui.sophisticated_redox.button.shape_match.on": "Correspondência por forma ativada - o filtro alcança todos os estágios de oxidação e variantes enceradas da mesma forma",
+  "gui.sophisticated_redox.button.shape_match.off": "Correspondência por forma desativada - o filtro alcança apenas itens idênticos"
+}

@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.eclipse/
+bin/
+run/
+
+# 参考源码、素材备份、运行残留
+# 已迁出本工程，统一放在 ..\移植所需资源\（其中的前置源码是 ARR，绝不能进版本库）
+_art/
+_backup/
+_ref/
+runs/
+libs/
+
+# 操作系统
+Thumbs.db
+Desktop.ini

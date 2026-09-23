@@ -1,0 +1,95 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.147'
+}
+
+version = mod_version
+group = mod_group_id
+
+// 产物名规范：<mod_id>-<version>-<loader>-<minecraft_version>.jar
+// 版本号已进 archivesName，因此必须清空 AbstractArchiveTask 的 archiveVersion，否则会变成 ...-0.1-0.1.jar
+base {
+    archivesName = "${mod_id}-${mod_version}-neoforge-${minecraft_version}"
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    archiveVersion = ''
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+repositories {
+    // 国内镜像置于官方源之前；NeoForged / Mojang 无国内镜像，必须保留官方源
+    maven { name = 'AliyunPublic'; url = 'https://maven.aliyun.com/repository/public' }
+    maven { name = 'TencentPublic'; url = 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+    mavenCentral()
+    maven { name = 'NeoForged'; url = 'https://maven.neoforged.net/releases' }
+    // 前置模组（精妙核心 / 精妙背包）走 Modrinth Maven
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        configureEach {
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+dependencies {
+    // 前置模组：编译期 + 运行期都需要，但不打包进产物（玩家自装）
+    implementation "maven.modrinth:sophisticated-core:${sc_version}"
+    implementation "maven.modrinth:sophisticated-backpacks:${sb_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xlint:deprecation'
+}
+
+// 元数据模板展开：src/main/templates -> build/generated/sources/modMetadata
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_credits            : mod_credits,
+            mod_display_url        : mod_display_url,
+            mod_issue_tracker_url  : mod_issue_tracker_url,
+            mod_description        : mod_description,
+            sc_version             : sc_version,
+    ]
+    inputs.properties replaceProperties
+    filteringCharset = 'UTF-8'
+    expand replaceProperties
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
