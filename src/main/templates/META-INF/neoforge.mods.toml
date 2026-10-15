@@ -21,7 +21,7 @@ description='''Oxidize, reduce and wax copper blocks right inside your backpack.
 [[dependencies.${mod_id}]]
 modId="sophisticatedbackpacks"
 type="required"
-versionRange="[3.26.13,)"
+versionRange="[3.26.12,)"
 ordering="AFTER"
 side="BOTH"
 
