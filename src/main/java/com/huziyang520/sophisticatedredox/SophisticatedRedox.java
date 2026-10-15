@@ -18,11 +18,13 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStoppedEvent;
 import net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent;
 
+import java.util.Arrays;
+
 @Mod(Constants.MOD_ID)
 public class SophisticatedRedox {
 	@SuppressWarnings("java:S1118") // has to be public for the mod to load
 	public SophisticatedRedox(IEventBus modBus, Dist dist, ModContainer container) {
-		container.registerConfig(ModConfig.Type.SERVER, RedoxConfig.SPEC);
+		container.registerConfig(syncedConfigType(), RedoxConfig.SPEC);
 
 		ModItems.register(modBus);
 		ModDataComponents.register(modBus);
@@ -48,5 +50,26 @@ public class SophisticatedRedox {
 		}
 
 		Constants.LOG.info("Sophisticated Redox loaded: 5 copper redox upgrades registered");
+	}
+
+	/**
+	 * The config type this mod registers: the server-owned config that is pushed to clients (gameplay step
+	 * limits plus the diagnostics switch), i.e. what the loader used to call {@code ModConfig.Type.SERVER}.
+	 *
+	 * <p>Resolved by <b>name</b> instead of referencing a constant on purpose. The loader renamed the enum
+	 * constants <b>inside the 26.3 line</b>: NeoForge 26.3.0.1-beta ships fancymodloader 12.0.0, which still
+	 * has {@code COMMON}/{@code SERVER}, while 26.3.0.77 ships 12.0.12, which has {@code LOCAL}/{@code SYNCED}.
+	 * NeoForge's own rename of {@code NeoForgeServerConfig} to {@code NeoForgeSyncedConfig} is what pins the
+	 * mapping (verified side by side in the two {@code NeoForgeMod} classes). A hard reference to either
+	 * constant would therefore fail on the other half of the loader range this jar declares ({@code [26.3,)}),
+	 * with a {@code NoSuchFieldError} thrown while the mod is being constructed.
+	 */
+	private static ModConfig.Type syncedConfigType() {
+		for (ModConfig.Type type : ModConfig.Type.values()) {
+			if ("SYNCED".equals(type.name()) || "SERVER".equals(type.name())) {
+				return type;
+			}
+		}
+		throw new IllegalStateException("No synced/server config type in " + Arrays.toString(ModConfig.Type.values()));
 	}
 }
