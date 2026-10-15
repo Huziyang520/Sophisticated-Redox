@@ -1,4 +1,4 @@
-## 精妙背包：氧化还原 —— NeoForge 26.2 元数据
+## 精妙背包：氧化还原 —— NeoForge 26.3 元数据
 ## 铁律（《AI模组开发通用/03-工程结构与元数据》§3.1）：
 ##   1. iconFile / displayURL / issueTrackerURL 必须写在 [[mods]] 子表内，写顶层不生效；
 ##   2. 26.2 起小图标槽位读 iconFile（logoFile 已废弃），只有 1:1 方图时必须用 iconFile；
@@ -21,14 +21,14 @@ description='''Oxidize, reduce and wax copper blocks right inside your backpack.
 [[dependencies.${mod_id}]]
 modId="sophisticatedbackpacks"
 type="required"
-versionRange="[3.26.2,)"
+versionRange="[3.26.13,)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="sophisticatedcore"
 type="required"
-versionRange="[1.5.0,)"
+versionRange="[1.5.11,)"
 ordering="AFTER"
 side="BOTH"
 

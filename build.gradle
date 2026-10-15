@@ -56,9 +56,13 @@ neoForge {
 }
 
 dependencies {
-    // 前置模组：编译期 + 运行期都需要，但不打包进产物（玩家自装）
-    implementation "maven.modrinth:sophisticated-core:${sc_version}"
-    implementation "maven.modrinth:sophisticated-backpacks:${sb_version}"
+    // 前置模组（精妙背包 / 精妙核心）：编译期需要，运行期由玩家自装，不打包进产物。
+    //
+    // 这里刻意不用 maven.modrinth: 坐标：本机 api.modrinth.com/maven 全线 404（连已缓存 artifact 的
+    // URL 也 404），坐标解析必然失败。前置 jar 落在 libs/（.gitignore 已忽略，不入库），以文件依赖引用，
+    // 构建时加 --offline。
+    compileOnly files("libs/${sc_jar}")
+    compileOnly files("libs/${sb_jar}")
 }
 
 tasks.withType(JavaCompile).configureEach {
@@ -72,7 +76,6 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             minecraft_version      : minecraft_version,
             minecraft_version_range: minecraft_version_range,
             neo_version_range      : neo_version_range,
-            loader_version_range   : loader_version_range,
             mod_id                 : mod_id,
             mod_name               : mod_name,
             mod_license            : mod_license,

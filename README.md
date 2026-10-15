@@ -1,6 +1,6 @@
 # Sophisticated Redox
 
-> Minecraft 26.2 · NeoForge · MIT
+> Minecraft 26.3 · NeoForge · MIT
 
 An addon for **Sophisticated Backpacks**. Five backpack upgrades that convert copper blocks **the moment they are inserted** — oxidize, scrape back, or wax. Your backpack becomes a sorting station for copper oxidation stages.
 
@@ -29,7 +29,7 @@ This is a small, flavour-driven utility mod, not a tech mod: no machines, no new
 
 ## Install
 
-Requires [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) and [Sophisticated Core](https://modrinth.com/mod/sophisticated-core), `26.2` builds. Drop the jar into `mods/`. Install it on **both client and server** (the logic runs server side, the settings screen is client side).
+Requires [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks) and [Sophisticated Core](https://modrinth.com/mod/sophisticated-core), `26.3` builds. Drop the jar into `mods/`. Install it on **both client and server** (the logic runs server side, the settings screen is client side).
 
 ## Config
 
@@ -65,7 +65,7 @@ MIT licensed. Thanks to P3pp3rF1y for Sophisticated Backpacks and Sophisticated 
 
 # 精妙背包：氧化还原
 
-> Minecraft 26.2 · NeoForge · MIT
+> Minecraft 26.3 · NeoForge · MIT
 
 **精妙背包的附属模组。** 五种升级，铜质方块**存入背包的那一刻**自动氧化、除锈或涂蜡——背包成了铜块氧化状态的整理台。
 
@@ -94,7 +94,7 @@ MIT licensed. Thanks to P3pp3rF1y for Sophisticated Backpacks and Sophisticated 
 
 ## 安装
 
-需要 [精妙背包](https://modrinth.com/mod/sophisticated-backpacks) 与 [精妙核心](https://modrinth.com/mod/sophisticated-core) 的 `26.2` 版本。把 jar 放进 `mods/`，**客户端与服务端都要装**（逻辑在服务端，设置界面在客户端）。
+需要 [精妙背包](https://modrinth.com/mod/sophisticated-backpacks) 与 [精妙核心](https://modrinth.com/mod/sophisticated-core) 的 `26.3` 版本。把 jar 放进 `mods/`，**客户端与服务端都要装**（逻辑在服务端，设置界面在客户端）。
 
 ## 配置
 
