@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "脱蠟あり：脱蠟自体が1ステップとして数えられ、残りのステップで還元します",
   "gui.sophisticated_redox.button.dewax.off": "脱蠟なし：ワックスがけされたブロックは対象外",
   "gui.sophisticated_redox.button.shape_match.on": "形状一致：同じ形状の酸化段階とワックス変種をすべて対象にする",
-  "gui.sophisticated_redox.button.shape_match.off": "完全一致：同じアイテムのみ対象"
+  "gui.sophisticated_redox.button.shape_match.off": "完全一致：同じアイテムのみ対象",
+  "sophisticated_redox.configuration.title": "%s の設定",
+  "sophisticated_redox.configuration.redoxUpgrade": "酸化還元アップグレード設定",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "上位酸化還元アップグレード設定",
+  "sophisticated_redox.configuration.filterSlots": "フィルタースロット",
+  "sophisticated_redox.configuration.slotsInRow": "1行あたりのスロット数",
+  "sophisticated_redox.configuration.diagnostics": "診断",
+  "sophisticated_redox.configuration.debugLogging": "デバッグログ",
+  "sophisticated_redox.configuration.steps": "ステップ数",
+  "sophisticated_redox.configuration.defaultSteps": "既定の段階",
+  "sophisticated_redox.configuration.maxSteps": "段階の上限",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "脱蠟ありの上限",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "サーバー設定",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "サーバー設定"
 }

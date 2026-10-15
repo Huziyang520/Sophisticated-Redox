@@ -41,6 +41,8 @@ Requires [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpa
 | `steps.defaultSteps` | `3` | Level a freshly crafted advanced upgrade starts at |
 | `steps.maxStepsWithDewax` | `4` | Level cap for advanced reduction with dewaxing allowed |
 
+The mod also shows up with a **Config** button in NeoForge's mod list, which opens NeoForge's own configuration screen for the server config above. Like 精妙背包 and 精妙核心, that config is per-world, so NeoForge only lets you edit it while a world is loaded.
+
 ## Languages
 
 `en_us`, `en_gb`, `zh_cn`, `zh_tw`, `zh_hk`, `lzh`, `ru_ru`, `de_de`, `ja_jp`, `fr_fr`, `es_es`, `pt_br`, `ko_kr`.
@@ -103,6 +105,8 @@ MIT licensed. Thanks to P3pp3rF1y for Sophisticated Backpacks and Sophisticated 
 | `diagnostics.debugLogging` | `false` | 把转换链每一步写进日志。升级"好像没反应"时打开它排查 |
 | `steps.defaultSteps` | `3` | 高级升级刚合成时的档位 |
 | `steps.maxStepsWithDewax` | `4` | 高级还原开脱蜡后的档位上限 |
+
+模组列表里本模组也带 **配置** 按钮，点开就是 NeoForge 自带的配置界面（内容即上面那份服务端配置）。与精妙背包、精妙核心一致，这份配置按存档保存，所以 NeoForge 只在世界加载时允许修改。
 
 ## 本地化
 

@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "Dewaxing allowed - dewaxing counts as one step, the remaining steps reduce",
   "gui.sophisticated_redox.button.dewax.off": "Dewaxing blocked - waxed blocks are left alone",
   "gui.sophisticated_redox.button.shape_match.on": "Shape match on - the filter matches every oxidation stage and waxed variant of the same shape",
-  "gui.sophisticated_redox.button.shape_match.off": "Shape match off - the filter matches exact items"
+  "gui.sophisticated_redox.button.shape_match.off": "Shape match off - the filter matches exact items",
+  "sophisticated_redox.configuration.title": "%s Configuration",
+  "sophisticated_redox.configuration.redoxUpgrade": "Redox Upgrade Settings",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "Advanced Redox Upgrade Settings",
+  "sophisticated_redox.configuration.filterSlots": "Filter Slots",
+  "sophisticated_redox.configuration.slotsInRow": "Slots Per Row",
+  "sophisticated_redox.configuration.diagnostics": "Diagnostics",
+  "sophisticated_redox.configuration.debugLogging": "Debug Logging",
+  "sophisticated_redox.configuration.steps": "Step Counts",
+  "sophisticated_redox.configuration.defaultSteps": "Default Steps",
+  "sophisticated_redox.configuration.maxSteps": "Max Steps",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "Max Steps With Dewaxing",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "Server Config",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "Server Config"
 }

@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "Entwachsen erlaubt - Entwachsen zählt als eigener Schritt, die übrigen Schritte reduzieren",
   "gui.sophisticated_redox.button.dewax.off": "Entwachsen gesperrt - gewachste Blöcke werden übersprungen",
   "gui.sophisticated_redox.button.shape_match.on": "Formabgleich an - der Filter trifft jede Oxidationsstufe und Wachsvariante derselben Form",
-  "gui.sophisticated_redox.button.shape_match.off": "Formabgleich aus - der Filter trifft exakte Gegenstände"
+  "gui.sophisticated_redox.button.shape_match.off": "Formabgleich aus - der Filter trifft exakte Gegenstände",
+  "sophisticated_redox.configuration.title": "%s Konfiguration",
+  "sophisticated_redox.configuration.redoxUpgrade": "Redox-Upgrade-Einstellungen",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "Fortgeschrittene Redox-Upgrade-Einstellungen",
+  "sophisticated_redox.configuration.filterSlots": "Filterplätze",
+  "sophisticated_redox.configuration.slotsInRow": "Plätze pro Reihe",
+  "sophisticated_redox.configuration.diagnostics": "Diagnose",
+  "sophisticated_redox.configuration.debugLogging": "Debug-Protokollierung",
+  "sophisticated_redox.configuration.steps": "Schrittzahlen",
+  "sophisticated_redox.configuration.defaultSteps": "Standardstufe",
+  "sophisticated_redox.configuration.maxSteps": "Stufenobergrenze",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "Obergrenze mit Entwachsen",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "Server-Einstellungen",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "Server-Einstellungen"
 }

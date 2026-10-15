@@ -19,6 +19,9 @@ _ref/
 runs/
 libs/
 
+# 开发辅助脚本（贴图 / 语言生成、jar 校验）：本机构建用不到，不入库
+tools/
+
 # 操作系统
 Thumbs.db
 Desktop.ini

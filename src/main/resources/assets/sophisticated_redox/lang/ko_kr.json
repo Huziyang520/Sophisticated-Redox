@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "왁스 제거 허용: 왁스 제거 자체가 1단계로 계산되며 나머지 단계는 환원합니다",
   "gui.sophisticated_redox.button.dewax.off": "왁스 제거 금지: 왁스칠된 블록은 건너뜁니다",
   "gui.sophisticated_redox.button.shape_match.on": "모양 일치: 같은 모양의 모든 산화 단계와 왁스 변형을 대상으로 합니다",
-  "gui.sophisticated_redox.button.shape_match.off": "정확한 일치: 동일한 아이템만 대상으로 합니다"
+  "gui.sophisticated_redox.button.shape_match.off": "정확한 일치: 동일한 아이템만 대상으로 합니다",
+  "sophisticated_redox.configuration.title": "%s 설정",
+  "sophisticated_redox.configuration.redoxUpgrade": "산화 환원 업그레이드 설정",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "고급 산화 환원 업그레이드 설정",
+  "sophisticated_redox.configuration.filterSlots": "필터 슬롯",
+  "sophisticated_redox.configuration.slotsInRow": "행당 슬롯 수",
+  "sophisticated_redox.configuration.diagnostics": "진단",
+  "sophisticated_redox.configuration.debugLogging": "디버그 로그",
+  "sophisticated_redox.configuration.steps": "단계 수",
+  "sophisticated_redox.configuration.defaultSteps": "기본 단계",
+  "sophisticated_redox.configuration.maxSteps": "단계 상한",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "탈랍 시 단계 상한",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "서버 설정",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "서버 설정"
 }

@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "Desencerado permitido - el desencerado cuenta como un paso; los demás pasos reducen",
   "gui.sophisticated_redox.button.dewax.off": "Desencerado bloqueado - los bloques encerados se omiten",
   "gui.sophisticated_redox.button.shape_match.on": "Coincidencia por forma activada - el filtro abarca todos los estados de oxidación y variantes enceradas de la misma forma",
-  "gui.sophisticated_redox.button.shape_match.off": "Coincidencia por forma desactivada - el filtro solo abarca objetos idénticos"
+  "gui.sophisticated_redox.button.shape_match.off": "Coincidencia por forma desactivada - el filtro solo abarca objetos idénticos",
+  "sophisticated_redox.configuration.title": "Configuración de %s",
+  "sophisticated_redox.configuration.redoxUpgrade": "Ajustes de la mejora Redox",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "Ajustes de la mejora Redox avanzada",
+  "sophisticated_redox.configuration.filterSlots": "Ranuras de filtro",
+  "sophisticated_redox.configuration.slotsInRow": "Ranuras por fila",
+  "sophisticated_redox.configuration.diagnostics": "Diagnóstico",
+  "sophisticated_redox.configuration.debugLogging": "Registro de depuración",
+  "sophisticated_redox.configuration.steps": "Número de pasos",
+  "sophisticated_redox.configuration.defaultSteps": "Pasos por defecto",
+  "sophisticated_redox.configuration.maxSteps": "Límite de pasos",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "Límite con desencerado",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "Ajustes del servidor",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "Ajustes del servidor"
 }

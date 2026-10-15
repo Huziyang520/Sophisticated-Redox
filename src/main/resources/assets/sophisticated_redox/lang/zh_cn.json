@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "允许脱蜡：脱蜡本身算一步，其余步骤才除锈",
   "gui.sophisticated_redox.button.dewax.off": "不允许脱蜡：跳过已涂蜡的方块",
   "gui.sophisticated_redox.button.shape_match.on": "匹配方块形状：过滤器命中同一形状的所有氧化档位与涂蜡变体",
-  "gui.sophisticated_redox.button.shape_match.off": "精确匹配：过滤器只命中相同的物品"
+  "gui.sophisticated_redox.button.shape_match.off": "精确匹配：过滤器只命中相同的物品",
+  "sophisticated_redox.configuration.title": "%s 配置",
+  "sophisticated_redox.configuration.redoxUpgrade": "氧化还原升级设置",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "高级氧化还原升级设置",
+  "sophisticated_redox.configuration.filterSlots": "过滤槽位",
+  "sophisticated_redox.configuration.slotsInRow": "每行槽位数",
+  "sophisticated_redox.configuration.diagnostics": "诊断",
+  "sophisticated_redox.configuration.debugLogging": "调试日志",
+  "sophisticated_redox.configuration.steps": "档位步数",
+  "sophisticated_redox.configuration.defaultSteps": "默认档位",
+  "sophisticated_redox.configuration.maxSteps": "档位上限",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "脱蜡档位上限",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "服务端配置",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "服务端配置"
 }

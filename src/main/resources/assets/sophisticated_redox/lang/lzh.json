@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "許脫蠟：去蠟計一步，餘步乃除鏽",
   "gui.sophisticated_redox.button.dewax.off": "不許脫蠟：蠟者不犯",
   "gui.sophisticated_redox.button.shape_match.on": "同形相配：凡同形之銅，雖鏽蝕塗蠟，皆為所中",
-  "gui.sophisticated_redox.button.shape_match.off": "正配：惟同物乃中"
+  "gui.sophisticated_redox.button.shape_match.off": "正配：惟同物乃中",
+  "sophisticated_redox.configuration.title": "%s 之設",
+  "sophisticated_redox.configuration.redoxUpgrade": "氧化還原之升之設",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "極升之氧化還原之設",
+  "sophisticated_redox.configuration.filterSlots": "濾格之數",
+  "sophisticated_redox.configuration.slotsInRow": "每行濾格",
+  "sophisticated_redox.configuration.diagnostics": "診斷",
+  "sophisticated_redox.configuration.debugLogging": "除錯之誌",
+  "sophisticated_redox.configuration.steps": "階數",
+  "sophisticated_redox.configuration.defaultSteps": "初階",
+  "sophisticated_redox.configuration.maxSteps": "階之上限",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "脫蠟之階之上限",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "伺服之設",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "伺服之設"
 }

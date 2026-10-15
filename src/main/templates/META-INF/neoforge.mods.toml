@@ -14,10 +14,7 @@ credits="${mod_credits}"
 iconFile="assets/${mod_id}/icon.png"
 displayURL="${mod_display_url}"
 issueTrackerURL="${mod_issue_tracker_url}"
-description='''Oxidize, reduce and wax copper blocks right inside your backpack.
-[EN] Issues: https://github.com/Huziyang520/Sophisticated-Redox/issues  |  Backup issue tracker: https://issue.mengcai.online/
-[CN] 在背包里直接氧化 / 还原 / 涂蜡你的铜方块。
-[CN] 问题反馈：https://github.com/Huziyang520/Sophisticated-Redox/issues  |  备用反馈站：https://issue.mengcai.online/'''
+description='''Oxidize, reduce and wax copper blocks right inside your backpack.'''
 
 ## 前置依赖：精妙背包（必需）+ 精妙核心（由精妙背包带入，此处显式声明以便给出明确提示）
 ## 版本区间口径同精妙背包自身：MC 前缀后的纯版本号做下限，避免段比较倒挂

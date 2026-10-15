@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "Снятие воска разрешено — снятие воска считается отдельным шагом, остальные шаги восстанавливают",
   "gui.sophisticated_redox.button.dewax.off": "Снятие воска запрещено — залитые воском блоки пропускаются",
   "gui.sophisticated_redox.button.shape_match.on": "Совпадение по форме — фильтр находит все стадии окисления и восковые варианты той же формы",
-  "gui.sophisticated_redox.button.shape_match.off": "Точное совпадение — фильтр находит только те же предметы"
+  "gui.sophisticated_redox.button.shape_match.off": "Точное совпадение — фильтр находит только те же предметы",
+  "sophisticated_redox.configuration.title": "Настройки %s",
+  "sophisticated_redox.configuration.redoxUpgrade": "Настройки улучшения Redox",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "Настройки продвинутого улучшения Redox",
+  "sophisticated_redox.configuration.filterSlots": "Ячейки фильтра",
+  "sophisticated_redox.configuration.slotsInRow": "Ячеек в строке",
+  "sophisticated_redox.configuration.diagnostics": "Диагностика",
+  "sophisticated_redox.configuration.debugLogging": "Отладочный журнал",
+  "sophisticated_redox.configuration.steps": "Число шагов",
+  "sophisticated_redox.configuration.defaultSteps": "Шагов по умолчанию",
+  "sophisticated_redox.configuration.maxSteps": "Предел шагов",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "Предел с удалением воска",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "Настройки сервера",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "Настройки сервера"
 }

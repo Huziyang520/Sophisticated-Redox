@@ -1,5 +1,6 @@
 package com.huziyang520.sophisticatedredox;
 
+import com.huziyang520.sophisticatedredox.client.ModConfigGui;
 import com.huziyang520.sophisticatedredox.client.ModUpgradeGui;
 import com.huziyang520.sophisticatedredox.config.RedoxConfig;
 import com.huziyang520.sophisticatedredox.core.RedoxTickQueue;
@@ -39,9 +40,10 @@ public class SophisticatedRedox {
 		NeoForge.EVENT_BUS.addListener(RedoxTickQueue::onServerTick);
 		NeoForge.EVENT_BUS.addListener((ServerStoppedEvent event) -> RedoxTickQueue.clear());
 
-		// Client-only: ModUpgradeGui links against Sophisticated Core's client GUI classes.
-		// The branch keeps that class out of the dedicated-server classpath.
+		// Client-only: both of these link against client classes (Sophisticated Core's client GUI, NeoForge's
+		// ConfigurationScreen). Keeping them behind the dist check keeps them off the dedicated-server classpath.
 		if (dist == Dist.CLIENT) {
+			ModConfigGui.register(container);
 			ModUpgradeGui.init(modBus);
 		}
 

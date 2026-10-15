@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "Décirage autorisé - le décirage compte comme une étape, les étapes restantes réduisent",
   "gui.sophisticated_redox.button.dewax.off": "Décirage bloqué - les blocs cirés sont ignorés",
   "gui.sophisticated_redox.button.shape_match.on": "Correspondance par forme activée - le filtre concerne tous les stades d'oxydation et variantes cirées de la même forme",
-  "gui.sophisticated_redox.button.shape_match.off": "Correspondance par forme désactivée - le filtre ne concerne que les objets identiques"
+  "gui.sophisticated_redox.button.shape_match.off": "Correspondance par forme désactivée - le filtre ne concerne que les objets identiques",
+  "sophisticated_redox.configuration.title": "Configuration de %s",
+  "sophisticated_redox.configuration.redoxUpgrade": "Réglages de l'amélioration Redox",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "Réglages de l'amélioration Redox avancée",
+  "sophisticated_redox.configuration.filterSlots": "Emplacements de filtre",
+  "sophisticated_redox.configuration.slotsInRow": "Emplacements par ligne",
+  "sophisticated_redox.configuration.diagnostics": "Diagnostic",
+  "sophisticated_redox.configuration.debugLogging": "Journalisation de débogage",
+  "sophisticated_redox.configuration.steps": "Nombre d'étapes",
+  "sophisticated_redox.configuration.defaultSteps": "Étapes par défaut",
+  "sophisticated_redox.configuration.maxSteps": "Limite d'étapes",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "Limite avec décirage",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "Réglages du serveur",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "Réglages du serveur"
 }

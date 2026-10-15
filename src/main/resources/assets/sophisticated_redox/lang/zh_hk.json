@@ -17,5 +17,18 @@
   "gui.sophisticated_redox.button.dewax.on": "允許脫蠟：脫蠟本身算一步，其餘步驟才除鏽",
   "gui.sophisticated_redox.button.dewax.off": "不允許脫蠟：略過已塗蠟的方塊",
   "gui.sophisticated_redox.button.shape_match.on": "匹配方塊形狀：過濾器命中同一形狀的所有氧化檔位與塗蠟變體",
-  "gui.sophisticated_redox.button.shape_match.off": "精確匹配：過濾器只命中相同的物品"
+  "gui.sophisticated_redox.button.shape_match.off": "精確匹配：過濾器只命中相同的物品",
+  "sophisticated_redox.configuration.title": "%s 設定",
+  "sophisticated_redox.configuration.redoxUpgrade": "氧化還原升級設定",
+  "sophisticated_redox.configuration.advancedRedoxUpgrade": "高級氧化還原升級設定",
+  "sophisticated_redox.configuration.filterSlots": "過濾欄位",
+  "sophisticated_redox.configuration.slotsInRow": "每行欄位數",
+  "sophisticated_redox.configuration.diagnostics": "診斷",
+  "sophisticated_redox.configuration.debugLogging": "除錯記錄",
+  "sophisticated_redox.configuration.steps": "檔位步數",
+  "sophisticated_redox.configuration.defaultSteps": "預設檔位",
+  "sophisticated_redox.configuration.maxSteps": "檔位上限",
+  "sophisticated_redox.configuration.maxStepsWithDewax": "脫蠟檔位上限",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml": "伺服器設定",
+  "sophisticated_redox.configuration.section.sophisticated.redox.server.toml.title": "伺服器設定"
 }
